@@ -5,8 +5,8 @@ html, body {
   width: 100%;
   font-family: 'Poppins', sans-serif;
   color: #222;
+  
 }
-
 .navbar{
   padding: .8rem;
   
@@ -21,6 +21,9 @@ html, body {
 .logo{
   max-height:5rem;
 }
+.row{
+  font-size: 1.2rem;
+}
 .carousel-inner img {
   width: 100%;
   height:100%;
@@ -30,6 +33,35 @@ html, body {
   top: 50%;
   transform: translateY(-50%);
   
+}
+.card h3{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  color : #80559e;
+}
+.carousel-caption h1{
+  color : white;
+}
+.carousel-caption h3{
+  color : #d7b6ee;
+
+}
+.how-to h3{
+  color: green;
+}
+
+.card a{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.card li{
+  font-size: 1.2rem;
 }
 .carousel-caption h1 {
   font-size: 500%;
@@ -43,14 +75,19 @@ html, body {
   padding-bottom: 1rem;
 }
 .btn-primary{
-  background-color: #6638b1;
-  border: 1px solid #6638b1;
+  background-color: #72bac7;
+  border: 1px solid #72bac7;
 
 }
-.btn-primary:hover{
-  background-color: #563d7c;
-  border: 1px solid #563d7c;
+a, a:hover{
+  color: white;
+  text-decoration: none;
 }
+.btn-primary:hover{
+  background-color: #949999;
+  border: 1px solid #949998;
+}
+
 .jumbotron{
   padding: 1rem;
   border-radius: 0;
@@ -58,6 +95,10 @@ html, body {
 
 .padding {
   padding-bottom: 2rem;
+}
+.how-to p{
+  padding: 5px;
+  font-size: 2.2rem;
 }
 .welcome {
   width:75%;
@@ -71,17 +112,29 @@ html, body {
   margin-bottom: 1rem;
 }
 .fa-heart{
-  color:#e54d26;
+  color:#dd70c2;
 }
-.fa-heart{
-  color: #563d7c;
+.fa-leaf{
+  color: #61e25d;
 }
-.fa-heart{
-  color:#2163af;
+.fa-hands{
+  color:#6ba3e4;
 }
-.fa-heart{
+.fa-heart, .fa-leaf, .fa-hands{
   font-size: 4em;
   margin: 1rem;
+}
+.card a{
+  
+    background-color: #79b0a1;
+    color : white;
+    outline: none;
+ 
+ 
+}
+.btn-outline-secondary{
+  background-color: #79b0a1;
+
 }
 .fun {
   width: 100%;
@@ -149,6 +202,29 @@ hr.light-100{
   width: 100%;
   margin-top: .8rem;
   margin-bottom: 1rem;
+}
+.card-img-top img{
+  height: 50%;
+}
+.btn-entendido{
+  background-color: rgb(235, 235, 235);
+  
+}
+.btn-entendido:visited{
+  display:hide;
+  
+}
+.quienes p{
+  text-align: justify;
+  display: flex;
+  padding-top: 1rem;
+  font-size: 1.3rem;
+ 
+}
+
+.quienes h2{
+  text-align: center;
+  color : #80559e; 
 }
 
 
@@ -240,7 +316,7 @@ hr.light-100{
   margin: 0 0 0 38px;
   font-size: 28px;
   font-weight: lighter;
-  color: #474747;
+  color: #72bac7;
 }
 
 span {
@@ -265,15 +341,13 @@ span {
   text-transform: uppercase;
   letter-spacing: 0.2em;
   color: #ffffff;
-  background-color: #9cebd5;
+  background-color: #72bac7;
   cursor: pointer;
   outline: none;
 }
-
 .product-price-btn button:hover {
   background-color: #79b0a1;
 }
-
 /*---Media Queries --*/
 @media (max-width: 992px) {
   .social a {
@@ -400,6 +474,15 @@ Large (lg) devices (desktops, 992px and up)
 Extra (xl) large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
 */
+
+
+
+
+
+
+
+
+
 
 
 
